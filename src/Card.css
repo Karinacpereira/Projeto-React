@@ -1,0 +1,16 @@
+.my-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  height: auto;
+  background-color: #000000;
+  color: #b02566;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  box-shadow: 0px 4px 5px 0px rgba(14, 13, 13, 0.769);
+  font-family: Arial, Helvetica, sans-serif;
+}

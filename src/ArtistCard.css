@@ -1,0 +1,14 @@
+.video{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #3f0972cc;
+  font-size: 4vh;
+  width: 70%;
+}
+
+iframe{
+  display: flex;
+  justify-content: center;
+}

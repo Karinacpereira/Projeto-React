@@ -1,0 +1,110 @@
+.menu{
+  background-color: #dab4e2;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle; 
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 80px;
+}
+
+.logo img{
+  width: 75px;
+}
+
+.links{
+  margin-top: 18px;
+}
+
+.pages{
+  text-decoration: none;
+  color: #b02566;
+  font-family: 'Molle', cursive;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.pages:hover{
+  color: #8a25b1;
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: none;
+  text-shadow: #FFF 5px 5px 10px;
+}
+
+.banner{
+  width: 100%;
+}
+
+.show{
+  width: 100%;
+}
+
+footer{
+  background: linear-gradient(to bottom, rgba(222,222,222,1) 0%, rgba(5,5,5,1) 75%, rgba(5,5,5,1) 100%);
+  height: 300px;
+  color: #FFF;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.mapa{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px 0;
+  list-style: none;
+  font-size: 18px;
+  justify-content: space-evenly;
+}
+
+.copy{
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  padding-top: 20px;
+}
+
+.my-button {
+  padding: 10px;
+  box-shadow: inset 0px -5px 0px 0px rgba(0,0,0,0.25);
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+}
+
+.my-button:active {
+  box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.25);
+}
+
+.primary-button {
+  background-color: rgb(17, 155, 209);
+}
+
+.primary-button:hover {
+  background-color: rgb(13, 133, 180);
+}
+
+.my-input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #8ba1b8;
+  font-size: 1rem;
+}
+
+.menu a{
+  padding: 10px;
+}
+
+.contact{
+  margin: 20px;
+}
+
+.message{
+  width: 100%;
+}
